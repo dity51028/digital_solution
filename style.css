@@ -1,0 +1,101 @@
+/* =========================
+   GOOGLE FONT IMPORT
+========================= */
+@import url('https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&display=swap');
+
+/* =========================
+   ROOT VARIABLES
+========================= */
+:root {
+
+  /* ===== COLORS ===== */
+  --white: #FFFFFF;
+  --dark-gray: #414041;
+  --purple: #9247D9;
+  --yellow: #D1F40B;
+  --pink: #CC9CC2;
+  --navy: #041852;
+  --deep-purple: #342B48;
+
+  --sky-blue: #80BDD9;
+  --lavender: #9F7DCA;
+  --dark-indigo: #13072F;
+  --bright-violet: #841EDB;
+  --light-blue: #79C1E2;
+  --midnight: #100628;
+  --black: #000000;
+
+  /* ===== BACKGROUND ===== */
+  --bg-primary: #8FD9D0;
+
+  /* ===== TEXT COLORS ===== */
+  --text-dark: #111111;
+  --text-light: #ffffff;
+
+  /* ===== FONT FAMILY ===== */
+  --font-primary: 'Clash Display', sans-serif;
+
+  /* ===== FONT WEIGHTS ===== */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* ===== HEADINGS ===== */
+  --h1-size: 70px;
+  --h2-size: 68px;
+  --h3-size: 64px;
+  --h4-size: 36px;
+  --h5-size: 20px;
+
+  /* ===== SUBTITLE ===== */
+  --subtitle-1: 29px;
+  --subtitle-2: 28px;
+
+  /* ===== LINE HEIGHT ===== */
+  --lh-normal: 1.3;
+  --lh-heading: 1.1;
+
+  /* ===== SPACING ===== */
+  --section-padding: 100px;
+  --container-width: 1200px;
+
+  /* ===== BORDER RADIUS ===== */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 999px;
+
+  /* ===== TRANSITION ===== */
+  --transition: all 0.3s ease;
+}
+
+/* =========================
+   RESET
+========================= */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: var(--font-primary);
+  background: var(--navy);
+  color: var(--text-dark);
+  line-height: var(--lh-normal);
+}
+
+/* =========================
+   CONTAINER
+========================= */
+.container{
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 20px;
+}
