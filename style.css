@@ -483,11 +483,15 @@ li{
   border-radius: 50%;
 }
 .heading{
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  padding: 30px;
+  gap: 64px;
+  padding-bottom: 100px;;
 }
 .heading p{
     font-weight: bold;
+    font-size: 29px;
 }
 .heading h2{
     font-size: var(--h2-size);
@@ -503,7 +507,7 @@ li{
   width: calc(33.33% - 50px);
   min-height: 250px;
   border: 1px solid var(--white);
-  border-radius: 20px;
+  border-radius: 57px;
   background: var(--navy);
   padding: 20px;
 }
@@ -512,6 +516,7 @@ li{
 }
 .card p{
   font-size: 14px;
+  opacity: 0.5;
 }
 
 /* Laptop */
@@ -645,7 +650,6 @@ li{
   }
    .cards{
     flex-direction: column;
-
     align-items: center;
   }
 
